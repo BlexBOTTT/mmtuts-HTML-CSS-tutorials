@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrap{
+    margin: 0 auto;
+    width: 80%;
+    background-color: gray;
+    
+    
+
+}
+
+.video_wrappper {
+    position: relative;
+    /* 100px */
+    left: 0px;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+
+}
+
+.video_wrappper iframe{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    height: 100%;
+    width: 100%;
+}

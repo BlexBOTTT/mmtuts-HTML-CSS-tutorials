@@ -1,0 +1,42 @@
+@font-face {
+    src: url(fonts/TiltPrism-Regular.ttf);
+    font-family: tiltprism;
+}
+
+/* .paragraph_1 {
+
+    font-size: 50px;
+    line-height: 50px;
+    font-family: Arial,;
+
+}
+
+.paragraph_2 {
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+.paragraph_3 {
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Shantell Sans', sans-serif; 
+    
+} */
+
+.paragraph_4 {
+    font-family: tiltprism;
+    font-size: xx-large;
+
+}
+
+/* 
+https://www.w3schools.com/cssref/css_websafe_fonts.php
+
+dafont.com
+
+fonts.google.com
+*/

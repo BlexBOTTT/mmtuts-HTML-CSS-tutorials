@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>42 Document</title>  
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div id="map"></div>
+        <!--javascript -->
+        <script>
+            function initMap() {
+                // Kilometer Zero in Manila, Philippines
+                var location = {lat: 14.581306, lng: 120.976167};  
+                var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: location
+                });
+                var marker = new google.maps.Marker({
+                    position: location,
+                    map: map
+                });
+            }
+        </script>
+        <!--Need an actual API key that works-->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYzXj5wF4L6mChyyc5xwfb2QT1QEZ9VN8&callback=initMap"></script>
+
+    </body>
+</html>

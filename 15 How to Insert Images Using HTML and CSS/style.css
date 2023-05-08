@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrap{
+    margin: 0 auto 0 60px;
+    width: 1000px;
+    background-color: gray;
+
+
+}
+
+.img_ER_vagabond {
+    width: 300px;
+    height: 200px;
+    background-image: url(/img/ER_vagabond.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.img_ER_vagabond:hover {
+  background-size: 100%;
+
+}
